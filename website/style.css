@@ -1,0 +1,110 @@
+body{
+    background-image: linear-gradient(to top, #06283D 60%, #47B5FF);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    height: 100vh;
+    width: 100%;
+    color: #DFF6FF;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.holder{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+.none{
+    display: none;
+}
+
+.entry{
+    background: #18396c;
+    border-radius: 10px;
+}
+
+#entryHolder{
+    margin-top: 20px;
+    text-align: center;
+}
+#entryHolder div{
+    padding: 10px;
+}
+.headline {
+
+}
+.title{
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+input{
+    display: block;
+    height: 60px;
+    background: #06303d4a;
+    color: white;
+    font-size: 20px;
+    border-radius: 9%;
+    border: none;
+}
+
+input::placeholder{
+    color: #1a9cec;
+    text-align: center;
+}
+
+button{
+    font-size: 26px;
+    border: none;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 9px;
+    color: #DFF6FF;
+    background-color: #47B5FF;
+    margin: 10px;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 69%;
+    text-align: center;
+}
+/* Reset style for HTML element on active to have no border*/*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input:hover,
+select:hover,
+textarea:hover,
+button:hover{
+    outline: none;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
